@@ -29,7 +29,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/fiddlly/?__pwa=1"
             className="footer__social-link"
             target=""
           >

@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/fiddlly/?__pwa=1"
         className="home__social-icon"
         target=""
       >
@@ -12,7 +12,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://www.facebook.com/"
+        href="https://www.facebook.com/share/1BhiUo8cAK/"
         className="home__social-icon"
         target=""
       >
@@ -20,7 +20,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://www.github.com/"
+        href="https://github.com/NBFiidly"
         className="home__social-icon"
         target=""
       >
