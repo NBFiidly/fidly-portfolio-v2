@@ -11,7 +11,7 @@ const Data = () => {
           viewBox="0 0 48 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="home__hand"
+          className="home__hand"
         >
           <path
             d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -57,13 +57,15 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Mobile & Web Developer</h3>
       <p className="home__description">
-      I am a Mobile & Web Developer from a city in Jambi, and I am very dedicated and passionate about my work.
+        I am a mobile and web developer based in Jambi, Indonesia. I build
+        thoughtful digital experiences with a focus on clear interfaces and
+        useful details.
       </p>
 
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg
-          class="button__icon"
+          className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

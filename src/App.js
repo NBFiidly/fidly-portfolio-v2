@@ -10,8 +10,15 @@ import Testimonials from "./components/testimonial/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import RataInCaseStudy from "./components/work/RataInCaseStudy";
 
 const App = () => {
+  const path = window.location.pathname.replace(/\/+$/, "") || "/";
+
+  if (path === "/project/rata-in") {
+    return <RataInCaseStudy />;
+  }
+
   return (
     <>
       <Header />
